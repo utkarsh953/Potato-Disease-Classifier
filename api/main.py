@@ -8,7 +8,7 @@ from tensorflow import keras
 
 app = FastAPI()
 
-MODEL = keras.load_model('../saved_models/model_1.keras')
+MODEL = tf.keras.models.load_model('../saved_models/model_1.keras')
 CLASS_NAMES = ["Early Blight","Late Blight","Healthy"]
 
 def read_file_as_image(data) -> np.ndarray:
