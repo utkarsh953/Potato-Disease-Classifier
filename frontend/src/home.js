@@ -222,7 +222,7 @@ export const ImageUpload = () => {
       <AppBar position="static" className={classes.appbar}>
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            CodeBasics: Potato Disease Classification
+            Potato Disease Classification
           </Typography>
           <div className={classes.grow} />
         </Toolbar>
@@ -318,8 +318,8 @@ export const ImageUpload = () => {
                     color="secondary"
                     className={classes.loader}
                   />
-                  <Typography className={classes.title} variant="h6" noWrap>
-                    Processing
+                  <Typography className={classes.title} variant="h5" noWrap>
+                    Processing....
                   </Typography>
                 </CardContent>
               )}
@@ -336,7 +336,7 @@ export const ImageUpload = () => {
                 onClick={clearData}
                 startIcon={<Clear fontSize="large" />}
               >
-                Clear
+                Clear Now
               </ColorButton>
             </Grid>
           )}
