@@ -11,7 +11,7 @@ app = FastAPI()
 
 endpoint= "http://localhost:8506/v1/models/potatoes_model:predict"
 
-MODEL = tf.keras.models.load_model('../saved_models/1/model_1.keras')
+MODEL = tf.keras.models.load_model('../saved_models/model_1.keras')
 CLASS_NAMES = ["Early Blight","Late Blight","Healthy"]
 
 def read_file_as_image(data) -> np.ndarray:
