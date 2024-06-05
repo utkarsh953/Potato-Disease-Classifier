@@ -87,14 +87,14 @@ const useStyles = makeStyles((theme) => ({
   },
   noImage: {
     margin: "auto",
-    width: 400,
+    width: 420,
     height: "400 !important",
   },
   input: {
     display: "none",
   },
   uploadIcon: {
-    background: "white",
+    background: "#eee",
   },
   tableContainer: {
     backgroundColor: "transparent !important",
@@ -110,12 +110,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "transparent !important",
   },
   tableCell: {
-    fontSize: "22px",
+    fontSize: "24px",
     backgroundColor: "transparent !important",
     borderColor: "transparent !important",
     color: "#000000a6 !important",
     fontWeight: "bolder",
-    padding: "1px 24px 1px 16px",
+    padding: "1px 22px 1px 18px",
   },
   tableCell1: {
     fontSize: "14px",
@@ -146,7 +146,7 @@ const useStyles = makeStyles((theme) => ({
   appbar: {
     background: "#be6a77",
     boxShadow: "none",
-    color: "white",
+    color: "#eee",
   },
   loader: {
     color: "#be6a77 !important",
