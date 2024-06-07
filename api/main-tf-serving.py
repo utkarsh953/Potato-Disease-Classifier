@@ -6,7 +6,7 @@ from PIL import Image
 import tensorflow as tf
 from tensorflow import keras
 import requests
-
+# This file is created for changes related to Tf serving related changes.
 app = FastAPI()
 
 endpoint= "http://localhost:8506/v1/models/potatoes_model:predict"

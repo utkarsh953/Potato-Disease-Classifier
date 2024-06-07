@@ -30,7 +30,7 @@ def read_file_as_image(data) -> np.ndarray:
 
 @app.get("/ping")
 async def ping():
-    return "Hello I am alive."
+    return "The API is up & working....."
 
 @app.post("/predict")
 async def predict(
